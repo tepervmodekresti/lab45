@@ -3,7 +3,7 @@ package com.example.demo.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "countries")
+@Table(name = "countries" )
 @Access(AccessType.FIELD)
 public class Country {
 
@@ -17,6 +17,6 @@ public class Country {
     @Column(name = "id", updatable = false, nullable = false)
     public long id;
 
-    @Column(name = "name")
+    @Column(name = "name ")
     public String name;
 }
